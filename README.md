@@ -18,6 +18,13 @@ Path to change the <code>.env</code> file
 ```PHP
 $envpath = dirname(__DIR__, 1) . '/install/config/.env';
  ```
+ Path to change the website landing and admin login after installation
+ ```HTML
+ <a href="'.getWebURL().'" class="theme-button choto">Go to website</a>
+ <a href="'.getWebURL().'/admin" class="theme-button choto">Go to Admin Panel</a>
+```
+  
+  
 # Step 1: Accept the Term&Conditon agreement
 
 <img src="https://user-images.githubusercontent.com/110724391/186402108-e2a4c6b8-62fe-4c2b-8a08-4ea48d6c2d62.png" width="400" height="400">
