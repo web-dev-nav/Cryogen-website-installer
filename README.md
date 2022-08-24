@@ -2,13 +2,18 @@
  Cryogen is a 5 step installation processor that helps to install website that build in core php or support any php frameworks.    
 
 # Installation
-We can add or remove any server extentions in $requiredServerExtensions according to website requirement in /index.php
+We can add or remove any server extentions in <code>$requiredServerExtensions</code> according to website requirement in <code>install/index.php</code>
 ```PHP
 $requiredServerExtensions = [
  'BCMath', 'Ctype', 'Fileinfo', 'JSON', 'Mbstring', 'OpenSSL', 'PDO','pdo_mysql', 'Tokenizer', 'XML', 'cURL',  'GD','gmp'
 ];
 ```
-
+Set folder permissions here
+```PHP
+$folderPermissions = [
+			 'test/','test-2/','config/'
+			];
+```
 # Step 1: Accept the Term&Conditon agreement
 
 <img src="https://user-images.githubusercontent.com/110724391/186402108-e2a4c6b8-62fe-4c2b-8a08-4ea48d6c2d62.png" width="400" height="400">
