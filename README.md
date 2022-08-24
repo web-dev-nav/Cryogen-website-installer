@@ -11,8 +11,8 @@ $requiredServerExtensions = [
 Set folder permissions here
 ```PHP
 $folderPermissions = [
-			 'test/','test-2/','config/'
-			];
+ 'test/','test-2/','config/'
+];
 ```
 # Step 1: Accept the Term&Conditon agreement
 
