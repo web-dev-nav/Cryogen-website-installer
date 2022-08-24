@@ -23,6 +23,7 @@ $envpath = dirname(__DIR__, 1) . '/install/config/.env';
  <a href="'.getWebURL().'" class="theme-button choto">Go to website</a>
  <a href="'.getWebURL().'/admin" class="theme-button choto">Go to Admin Panel</a>
 ```
+Replace database.sql with your corresponding sql in <code>install/database.sql</code> without changing the name of database.
   
   
 # Step 1: Accept the Term&Conditon agreement
