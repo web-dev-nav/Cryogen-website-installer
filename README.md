@@ -16,7 +16,7 @@ $folderPermissions = [
 ```
 Path to change the <code>.env</code> file
 ```PHP
-	$envpath = dirname(__DIR__, 1) . '/install/config/.env';
+$envpath = dirname(__DIR__, 1) . '/install/config/.env';
  ```
 # Step 1: Accept the Term&Conditon agreement
 
