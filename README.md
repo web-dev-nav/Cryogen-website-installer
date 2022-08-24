@@ -8,7 +8,7 @@ $requiredServerExtensions = [
  'BCMath', 'Ctype', 'Fileinfo', 'JSON', 'Mbstring', 'OpenSSL', 'PDO','pdo_mysql', 'Tokenizer', 'XML', 'cURL',  'GD','gmp'
 ];
 ```
-Set folder permissions here
+Set folder permissions here <code>install/index.php</code>
 ```PHP
 $folderPermissions = [
  'test/','test-2/','config/'
