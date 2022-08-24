@@ -4,9 +4,9 @@
 # Installation
 We can add or remove any server extentions in $requiredServerExtensions according to website requirement in /index.php
 ```PHP
-	  $requiredServerExtensions = [
-				'BCMath', 'Ctype', 'Fileinfo', 'JSON', 'Mbstring', 'OpenSSL', 'PDO','pdo_mysql', 'Tokenizer', 'XML', 'cURL',  'GD','gmp'
-			];
+$requiredServerExtensions = [
+ 'BCMath', 'Ctype', 'Fileinfo', 'JSON', 'Mbstring', 'OpenSSL', 'PDO','pdo_mysql', 'Tokenizer', 'XML', 'cURL',  'GD','gmp'
+];
 ```
 
 # Step 1: Accept the Term&Conditon agreement
