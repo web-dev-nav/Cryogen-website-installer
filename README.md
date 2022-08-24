@@ -18,7 +18,7 @@ Path to change the <code>.env</code> file
 ```PHP
 $envpath = dirname(__DIR__, 1) . '/install/config/.env';
  ```
- Path to change the website landing and admin login after installation
+ Path to change the website landing and admin login after installation on <code>line no 225 & 225</code>
  ```HTML
  <a href="'.getWebURL().'" class="theme-button choto">Go to website</a>
  <a href="'.getWebURL().'/admin" class="theme-button choto">Go to Admin Panel</a>
